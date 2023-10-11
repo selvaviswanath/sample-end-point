@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "sample app for interview",
   "main": "index.js",
-  "engines": {
-    "node": "14.x" 
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "selvaviswanath@protonmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "6.1.0",
+    "express": "4.16.4",
+    "express-session": "1.15.6"
+  }
 }
